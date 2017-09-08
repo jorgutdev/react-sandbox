@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import { Jumbotron } from 'react-bootstrap'
 
-export class Header extends Component {
+export class Sample extends Component {
     render() {
         return (
-            <Jumbotron  />
+            <div></div>
         )
     }
 }
@@ -13,7 +13,6 @@ export class Header extends Component {
 
 const mapStateToProps = state => {
     return {
-        isLogged: state.userReducer.isLogged
     }
 }
 
@@ -25,5 +24,5 @@ const mapDispatchToProps = dispatch => {
 export default connect(
     mapStateToProps,
     mapDispatchToProps,
-)(Header)
+)(Sample)
 
