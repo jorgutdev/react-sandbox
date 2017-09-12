@@ -1,0 +1,12 @@
+.jumbo {
+    background: #667db6;
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+}
+
+.jumbo-header {
+    color:#fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    text-align: center;
+}

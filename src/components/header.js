@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import { Jumbotron } from 'react-bootstrap'
-
+import './styles.css'
 export class Header extends Component {
     render() {
         return (
-            <Jumbotron  />
+            <Jumbotron className="jumbo">
+                <h1 className='jumbo-header'>React-Sandbox</h1>
+            </Jumbotron>
         )
     }
 }
