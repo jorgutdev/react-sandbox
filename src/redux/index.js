@@ -1,5 +1,4 @@
-import React from 'react'
-import { createStore, combineReducers} from 'redux'
+import { combineReducers} from 'redux'
 import userReducer from './reducers/userReducer'
 
 let rootReducer = combineReducers({

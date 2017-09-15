@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 import rootReducer from './redux'
-import LaunchScreen from './containers/launchScreen'
+import RootContainer from './containers/rootContainer'
 
 const store = createStore(rootReducer)
 
@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <Provider store={store}>
-        <LaunchScreen />
+        <RootContainer  />
       </Provider>
     );
   }
